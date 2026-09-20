@@ -42,3 +42,5 @@ Maintain the CSV as the source of truth; regenerate `data.js` as `window.ENERGY_
 To preview, serve `dist/` using a static HTTP server. Publishing a commit to `main` triggers `.github/workflows/pages.yml`.
 
 Tourism navigation uses separate static pages: `index.html` (overview), `compare.html`, `season.html`, `places.html`, `residents.html`, `data.html`, `findings.html`, and `methodology.html`. Each page supports direct links and normal browser navigation. Shared rendering reads the page identifier from the HTML body; country controls start with Croatia and France on each visit.
+
+Project submission materials are linked from `resources.html`: the original downloadable CSV, `methodology-note.html` (one-page print layout), `presentation.html` (six browser slides with a five-minute running order and live demonstration links), and `reflection.html`. Print controls use the browser's print/save-as-PDF facility. Presentation notes are included when printing; no personal information is collected.
