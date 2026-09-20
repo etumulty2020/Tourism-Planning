@@ -1,6 +1,6 @@
 # Tourism & Place
 
-National tourism comparison for the 16 countries in the original energy dataset. Live site: https://etumulty2020.github.io/Data-Demo/
+National tourism comparison for the 16 countries in the original energy dataset. Live site: https://etumulty2020.github.io/Tourism-Planning/
 
 The static website is served from `dist/` by the GitHub Pages workflow. No build step is required. `dist/index.html` is the tourism dashboard; `dist/energy.html` retains the original electricity dashboard. Both read the same `dist/data.js` snapshot of `dist/energy-data.csv`.
 
