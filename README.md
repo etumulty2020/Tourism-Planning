@@ -40,3 +40,5 @@ All source URLs and years are embedded in each CSV row. National aggregates cann
 Maintain the CSV as the source of truth; regenerate `data.js` as `window.ENERGY_DATA = <JSON records>;`. Keep all fields as strings and preserve blanks. The amended original CSV is also saved one directory above this repository. Keep that copy and the deployed CSV identical when updating. Review definitions and geography before substituting new data.
 
 To preview, serve `dist/` using a static HTTP server. Publishing a commit to `main` triggers `.github/workflows/pages.yml`.
+
+Tourism navigation uses separate static pages: `index.html` (overview), `compare.html`, `season.html`, `places.html`, `residents.html`, `data.html`, `findings.html`, and `methodology.html`. Each page supports direct links and normal browser navigation. Shared rendering reads the page identifier from the HTML body; country controls start with Croatia and France on each visit.
